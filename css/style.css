@@ -1,0 +1,269 @@
+/*
+-	website-3 "Kaarya_website"
+-	Developed by Mayank
+-	CopyRight by https://github.com/MayankDevil/
+-	CSS : ./css/style.css
+*/
+
+*
+{
+	user-select: text;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color:var(--black);
+	border: none;
+	outline:none;
+	box-sizing: border-box;
+}
+:root
+{	
+	--secondary:#6b8e23;
+	--primary:#556b2f;
+	--tertiary:#808000;
+	--one:#ffd700;
+	--white: #fff;
+	--black:#000;
+	--gray: #6c757d;
+	--light: #f8f9fa;
+	--dark: #343a40;
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 1rem;
+	background: var(--theme2);
+}
+::selection
+{
+	background: var(--tertiary);
+}
+/*
+	comman css -----------------------
+*/
+body
+{
+	overflow: hidden;
+	overflow-Y:auto ;
+}
+main
+{
+	min-height: 100vh;
+	max-width: 1000px;
+	margin: auto;
+}
+h1
+{
+	font-weight:100;
+	font-size:5rem;
+	color: var(--gray);
+}
+h4
+{
+	font-weight: bold;
+	color:var(--dark);
+}
+h3
+{
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: var(--dark);
+}
+p
+{
+	opacity: 0.8;
+	line-height: 1.5rem;
+	color: var(--dark);
+}
+.btn
+{
+	display: inline-block;
+	margin: 1rem auto;
+	padding: 1rem;
+	font-size: 1rem;
+	color: var(--primary);
+	border: 1px solid var(--primary);
+}
+.btn:hover
+{
+	font-weight: bold;
+	color: var(--light);
+	background: var(--primary);
+	box-shadow: 2px 2px 5px var(--gray);
+}
+/*
+	header css -----------------------
+*/
+#header
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.5rem 1rem;
+	background: var(--primary);
+}
+#header #brandname
+{
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: var(--white);
+}
+#nav
+{
+	width: 100%;
+}
+#nav .nav-link
+{
+	display: inline-block;
+	padding: 10px;
+	font-size: 1rem;
+	color:var(--white);
+}
+#nav .nav-link:hover
+{
+	font-weight: bold;
+	background: var(--secondary);
+	box-shadow: 1px 1px 5px var(--gray);
+}
+#social
+{
+	display: flex;
+	align-items: center;
+}
+#social .media
+{
+	display: inline-block;
+	margin:auto 0.5rem;
+}
+#social .media img
+{
+	width: 30px;
+	object-fit: contain;
+}
+#social .media img:hover
+{
+	background: var(--secondary);
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px var(--gray);
+}
+/*
+	service css -----------------------
+*/
+#service
+{
+	display: grid;
+	grid-template-columns: 300px auto;
+	width: 100%;
+}
+#work
+{
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(3,1fr);
+	margin: 1rem auto;
+}
+.serve
+{
+	border-bottom: 1px solid var(--gray);
+}
+.image
+{
+	/* filter: blur(5px); */
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background: var(--tertiary);
+	background-blend-mode:lighten;
+}
+.serve div
+{
+	padding: 1rem;
+}
+h3,
+.serve h4,
+.serve p
+{
+	padding: 1rem 0;
+}
+#aside
+{
+	display: grid;
+	background: var(--light);
+}
+#sidebar
+{
+	display: block;
+	padding: 1rem 0;
+}
+#sidebar .link
+{
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	color: var(--primary);
+}
+#sidebar .link:hover
+{
+	font-weight: bold;
+	color: var(--light);
+	background: var(--primary);
+}
+#side_banner
+{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	margin-bottom: -4px;
+}
+/*
+	article css ------------------------
+*/
+#article
+{
+	padding: 1rem;
+}
+#intro
+{
+	min-height: 500px !important;
+	padding: 1rem;
+	border: 3px solid var(--light);
+}
+#intro p
+{
+	padding: 2rem 0;
+}
+/*
+	footer css ------------------------
+*/
+#footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+	background: var(--primary);
+}
+#footer .copy
+{
+	font-size: 1rem;
+	color:var(--white);
+}
+#footer .developer
+{
+	font-size: 1rem;
+	color: var(--white);
+}
+#footer a
+{
+	line-height: 2rem;
+	font-weight: bold;
+	color: var(--whie);
+}
+/*
+	the end ==========================
+*/

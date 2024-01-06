@@ -1,0 +1,115 @@
+/*
+-	website-3 "Kaarya_website"
+-	Developed by Mayank
+-	CopyRight by https://github.com/MayankDevil/
+-	CSS : ./css/responsive.css
+*/
+
+/*
+    1200PX SCREEN ---------------------
+*/
+@media screen and (max-width: 1200px)
+{
+
+}
+/*
+    992PX SCREEN ----------------------
+*/
+@media screen and (max-width: 992px)
+{
+    /* service */
+    #work
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/*
+    768PX SCREEN ----------------------
+*/
+@media screen and (max-width: 768px)
+{
+    /* comman */
+    h1
+    {
+        font-size: 3rem;
+    }
+    /* serive */
+    #service
+    {
+        grid-template-columns: 100%;
+    }
+    #article
+    {
+        grid-row: 1/2;
+    }
+}
+/*
+    576PX SCREEN ----------------------
+*/
+@media screen and (max-width: 576px)
+{
+    /* header */
+    #header
+    {
+        display: grid !important;
+        place-content: center;
+        padding: 0 1rem;
+    }
+    #brandname
+    {
+        padding: 1rem;
+        text-align: center;
+    }
+    #nav
+    {
+        grid-row: 3/4;
+        /* background: green; */
+    }
+    #nav .nav-link
+    {
+        margin: auto 0.5rem;
+    }
+    #social
+    {
+        margin:1rem auto;
+        justify-content: center;
+    }
+    /* service */
+    #work
+    {
+        grid-gap: 1rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* footer */
+    #footer
+    {
+        display: grid;
+        padding: 1rem;
+    }
+    #footer .copy
+    {
+        /* padding: 1rem; */
+        line-height: 2rem;
+    }
+}
+/*
+    375PX SCREEN ----------------------
+*/
+@media screen and (max-width: 375px)
+{
+    /* footer */
+    #footer
+    {
+        padding: 1rem 0.5rem;
+    }
+}
+/*
+    the end ===========================
+*/
+/*
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+*/
