@@ -1,0 +1,68 @@
+/*
+-	website-3 "Kaarya_website"
+-	Developed by Mayank
+-	CopyRight by https://github.com/MayankDevil/
+-	CSS : ./css/kaarya.css
+*/
+
+#mywork article
+{
+	grid-column: 1/-1;
+}
+
+#mywork
+{
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(3,1fr);
+	padding: 1rem 0.5rem;
+}
+
+#mywork .box
+{
+	display: block;
+	position: relative;
+}
+#mywork .box .picture
+{
+	width: 100%;
+	height: 100%;
+	object-fit: 1rem;
+}
+#mywork .box .detail
+{
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(5);
+	background: var(--dark);
+}
+#mywork .box .detail :is(h2,p)
+{
+	padding: 1rem;
+	color:var(--light);
+}
+#mywork .box:hover
+{
+	box-shadow: 3px 5px 10px var(--gray);
+}
+#mywork .box .detail:hover
+{
+	opacity: 0;
+}
+
+/* last box */
+#mywork .box:last-child
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--shade);
+}
+/*
+	the end ==========================
+*/

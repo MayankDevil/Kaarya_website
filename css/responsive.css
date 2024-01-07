@@ -17,6 +17,11 @@
 */
 @media screen and (max-width: 992px)
 {
+    /* about */
+    #about .center
+    {
+        max-width: 70vw;
+    }
     /* service */
     #work
     {
@@ -33,6 +38,11 @@
     {
         font-size: 3rem;
     }
+    /* about */
+    #about .center
+    {
+        max-width: 80vw;
+    }
     /* serive */
     #service
     {
@@ -41,6 +51,11 @@
     #article
     {
         grid-row: 1/2;
+    }
+    /* work */
+    #mywork
+    {
+        grid-template-columns: repeat(2,1fr);
     }
 }
 /*
@@ -80,6 +95,38 @@
         grid-gap: 1rem;
         grid-template-columns: repeat(1,1fr);
     }
+    /* why */
+    #why .display-4
+    {
+        text-align: center;
+        padding: 2rem 0.5rem;
+        font-weight:lighter;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+    /* about */
+    #about .center
+    {
+        max-width: 90vw;
+    }
+    .lead
+    {
+        font-size: 2rem;
+    }
+    #about h5
+    {
+        font-size: 1rem;
+    }
+    .about_link
+    {
+        font-size: 1rem;
+    }
+    /* work */
+    #mywork
+    {
+        padding: 0.5;
+        grid-template-columns: repeat(1,1fr);
+    }
     /* footer */
     #footer
     {
@@ -97,6 +144,16 @@
 */
 @media screen and (max-width: 375px)
 {
+    /* comman */
+    h1
+    {
+        font-size: 2rem;
+    }
+    /* about */
+    #user .picture
+    {
+        width: 100%;
+    }
     /* footer */
     #footer
     {

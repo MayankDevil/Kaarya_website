@@ -1,0 +1,109 @@
+/*
+-	website-3 "Kaarya_website"
+-	Developed by Mayank
+-	CopyRight by https://github.com/MayankDevil/
+-	CSS : ./css/service.css
+*/
+/*
+	service css -----------------------
+*/
+#service
+{
+	display: grid;
+	grid-template-columns: 270px auto;
+	width: 100%;
+}
+
+/*
+	aside css -------------------------
+*/
+#aside
+{
+	display: grid;
+	background: var(--shade);
+}
+#sidebar
+{
+	display: block;
+	padding: 1rem 0;
+}
+#sidebar .link
+{
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	color: var(--primary);
+}
+#sidebar .link:hover
+{
+	font-weight: bold;
+	color: var(--light);
+	background: var(--primary);
+}
+#side_banner
+{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	margin-bottom: -4px;
+}
+/*
+	article css ------------------------
+*/
+#article
+{
+	padding: 1rem;
+}
+#intro
+{
+	padding: 1rem;
+	border: 1px dotted var(--gray);
+}
+#intro p
+{
+	padding: 2rem 0;
+}
+/*
+	work box ----------------------------
+*/
+#work
+{
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(3,1fr);
+	margin: 1rem auto;
+}
+.serve
+{
+	border-bottom: 1px dotted var(--gray);
+}
+.image
+{
+	/* filter: blur(5px); */
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background: var(--tertiary);
+	background-blend-mode:lighten;
+}
+h3,
+.serve h4,
+.serve p
+{
+	padding: 20px 0;
+}
+/*
+	why css ----------------------------
+*/
+#why .display-4
+{
+	text-align: right;
+	padding: 2rem;
+	font-weight:lighter;
+	line-height: 3rem;
+	font-size: 2rem;
+	color: var(--primary);
+}
+/*
+	the end ==========================
+*/
