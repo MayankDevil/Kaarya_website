@@ -3,74 +3,54 @@
 
 - Name : "Kaarya_website"
 
-# reserach
+- Description : "Elevating digital experiences through expert web development, Java programming, and meticulous database management."
 
-1. Home/Services Page:
+- Version : main
 
-Introduction:
+- Update : 08-01-2024
 
-    Briefly introduce your company and the services you offer.
-    Use compelling language to capture the visitor's attention.
+- Status : REST
 
-Service Categories:
+- Responsive : True
 
-    List the main categories of services you provide.
-    Provide a concise description for each category.
+- TechStack : { HTML | CSS | JavaScript }
 
-Highlighted Services:
+- Thanks : { GitHub | VSCodium | GIMP | Unplash | Indardanus }
 
-    Select a few key services to highlight.
-    Include images or icons for visual appeal.
+- Collabrate : Self
 
-Call to Action:
+- URL : https://username.github.io/Kaarya_website/
 
-    Encourage visitors to explore more by linking to the "Work Gallery" page or contacting you.
+- Clone : https://github.com/username/Kaarya_website.git
 
-2. Work Gallery Page:
+- Download : https://github.com/username/Kaarya_website/archive/refs/heads/main.zip
 
-Project Showcase:
+#### Project Look & Feel
 
-    Display a gallery of your completed projects.
-    Include images, project names, and brief descriptions.
+![NETWORK_ERROR](./data/KaaryaPage.png)
 
-Categories or Tags:
+#### Responsive
 
-    Organize projects by categories or tags for easy navigation.
+_"This website prioritizes inclusivity and user experience ethics by being responsively designed for seamless accessibility across diverse devices."_
 
-Client Testimonials:
+  **SCREEN** { 1200PX | 992PX | 785PX | 556PX }
 
-    If available, include testimonials from satisfied clients related to specific projects.
+#### Theme
 
-Project Details:
+_"Experience an impressive digital ambiance with our website, adorned in a soothing green light theme."_
 
-    Provide a link to a dedicated page for each project with more in-depth information.
+#### Key Feature that make website more valuble
 
-Call to Action:
+- [x] Responsive Design
+- [x] Innovative Green Light Theme
+- [x] Holistic Approach
+- [x] Ethical Design Principles
+- [x] Explain Service
+- [x] Present Developer Skill
 
-    Encourage visitors to contact you for their own projects.
+### Warning
 
-3. About Me Page:
+__" We urge all users to respect the copyright and intellectual property rights associated with the content on this website. Unauthorized copying, downloading, or any form of content misuse is strictly prohibited. Such actions may lead to legal consequences and potential charges. "__
 
-Personal Introduction:
 
-    Introduce yourself, sharing your background, expertise, and passion for your work.
-
-Professional Experience:
-
-    Highlight your relevant professional experience and achievements.
-
-Skills and Expertise:
-
-    List key skills and expertise related to your services.
-
-Philosophy or Approach:
-
-    Share your approach to delivering services or your work philosophy.
-
-Contact Information:
-
-    Provide ways for visitors to get in touch with you, such as email or a contact form.
-
-Call to Action:
-
-    Encourage visitors to contact you for more information or to discuss potential projects.
+[![twitter](https://img.shields.io/badge/MayankDevil-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
